@@ -7,13 +7,13 @@ This lab exercise demonstrates the capture and analysis of network traffic using
 
 This section describes the provided environment and network baseline used during the investigation.
 
----
+
 
 ## Background
 
 A Windows host was infected, and it seems to be from WarmCookie malware.
 
----
+
 
 ##  Scenario
 
@@ -32,9 +32,9 @@ LAN segment details:
 * Write an incident Report based on malicious network activity from the pcap and from the alerts. 
 
 - The incident report should contains 3 sections:
-> 	- **Executive Summary**: State in simple, direct terms what happened (when, who, what).
-> 	- **Victim Details**: Details of the victim (hostname, IP address, MAC address, Windows user account name).
-> 	- **Indicators of Compromise (IOCs)**: IP addresses, domains and URLs associated with the activity.  SHA256 hashes if any malware binaries can be extracted from the pcap.
+ 	- **Executive Summary**: State in simple, direct terms what happened (when, who, what).
+ 	- **Victim Details**: Details of the victim (hostname, IP address, MAC address, Windows user account name).
+ 	- **Indicators of Compromise (IOCs)**: IP addresses, domains and URLs associated with the activity.  SHA256 hashes if any malware binaries can be extracted from the pcap.
 
 # 2. Executive Summary
 
