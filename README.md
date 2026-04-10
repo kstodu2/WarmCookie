@@ -1,4 +1,4 @@
-# Wireshark Lab: Network Packet Analysis
+# Wireshark Lab: WarmCookie, Network Traffic Analysis.
 
 This lab exercise demonstrates the capture and analysis of network traffic using Wireshark, with a focus on identifying suspicious activity and understanding packet communication.
 
