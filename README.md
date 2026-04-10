@@ -26,13 +26,14 @@ A Windows host was infected, and it seems to be from WarmCookie malware.
 2. Apply filter to isolate traffic from potentially impacted machine. ![PotentialCulprit](screenshots/3-Culprit.png)
 3. Examined hosts on VirusTotal for any finding & reports. 
 4. Follow HTTP Stream from infected machine to a malicious host. Leading to a Phishing Email with Invoice zip attachment. ![PotentialCulprit2](screenshots/3-culprit2.0.png)
-5. Extract the packet to confirm that the attachment has malicious code.
+5. Extract the packet and check its hash on Virustotal to confirm that the attachment has malicious code.
 6. Extract the packet destined to suspicious IP (72.5.43.29) to analyze the code.
+
 
 ---
 
 ## Findings
-- At 2024-08-14 19:11:04.072, Pierce Lucero, @ DESKTOP-H8ALZBV.local, MAC: 00:1c:bf:03:54:82, IP: 10.8.15.133, attempted to download an attachment from an email. By doing so user was redirected to a typosquatting website called quote.checkfedexexp.com (104[.]21[.]55.70), where invoice 876597035_003.zip was downloaded on his machine. At 19:12:00.77, the Pierce (DESKTOP-H8ALZBV) opened a .js file which downloaded the warmcookie malaware from 72[.]5.43[.]29.
+- At 2024-08-14 19:11:04.072, Pierce Lucero, @ DESKTOP-H8ALZBV.local, MAC: 00:1c:bf:03:54:82, IP: 10.8.15.133, attempted to download an attachment from an email. By doing so user was redirected to a typosquatting website called quote.checkfedexexp.com (104[.]21[.]55.70), where invoice 876597035_003.zip was downloaded on his machine. At 19:12:00.77, then Pierce (DESKTOP-H8ALZBV) opened a .js file which downloaded the warmcookie malaware from 72[.]5.43[.]29.
 
 
 ## IoCs
