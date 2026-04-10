@@ -15,7 +15,7 @@ A Windows host was infected, and it seems to be from WarmCookie malware.
 
 ## Lab Setup
 - **Environment:** KaliVM 2026.1
-- **Tools:** Wireshark 4.6.4
+- **Tools:** Wireshark 4.6.4, Virustotal
 
 
 ---
