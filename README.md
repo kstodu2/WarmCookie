@@ -1,9 +1,9 @@
-# Case: WarmCookie (Simulated Example)
+# Case: WarmCookie
 
 This lab exercise demonstrates the capture and analysis of network traffic using Wireshark, with a focus on identifying suspicious activity and understanding packet communication.
 
 ---
-# 1. Investigation Context (Lab Scenario)
+# 1. Investigation Context 
 
 This section describes the provided environment and network baseline used during the investigation.
 
